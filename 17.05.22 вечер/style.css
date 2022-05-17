@@ -952,3 +952,78 @@ blockquote {
 
 /* <<<<< end copyright >>>>> */
 /* <<<<< end footer >>>>> */
+
+/* <<<<< page catalog >>>>> */
+
+.banner {
+    background-color: #F8F3F4;
+    width: 100%;
+    min-height: 148px;
+
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    align-content: space-around;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    min-height: inherit;
+}
+
+.banner__list {
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    align-content: space-around;
+    justify-content: space-between;
+}
+
+/*.banner__list-item {
+    
+}*/
+
+.banner__text {
+    display: block;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #F16D7F;
+}
+
+.filter {
+    border: 1px solid #000;
+    max-width: 1140px;
+    min-height: 17px;
+    background-color: #9889D7;
+    margin: 0 0 64px;
+}
+
+.catalog-produkts {
+    padding: 51px 0 18.5px;
+}
+
+.pagination {
+    max-width: 283px;
+    min-height: 43px;
+    background-color: #9889D7;
+    margin: 0 0 96.5px;
+}
+
+.pagination__list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+   /* display: flex;
+    align-items: center;
+    align-content: space-around;
+    justify-content: space-between;
+    flex-wrap: wrap;*/
+}
