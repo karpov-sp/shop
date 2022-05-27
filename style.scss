@@ -1483,12 +1483,6 @@ button:focus-visible {
 
 /* <<<<< block description >>>>> */
 
-
-
-
-
-/* <<<<< block description >>>>> */
-
 .description {
     width: 100%;
     max-width: 1920px;
@@ -1497,23 +1491,9 @@ button:focus-visible {
     margin: 0 auto;
     align-items: center;
     padding: 0 0 32px 0;
-
-    &__wrp {
-        width: 100%;
-        background-color: #F7F7F7;
-    }
-    &__list {
-        list-style-type: none;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin: 0;
-        padding: 0;
-        flex-wrap: wrap;
-    }
 }
 
-/*.description__list {
+.description__list {
     list-style-type: none;
     display: flex;
     justify-content: space-between;
@@ -1521,7 +1501,7 @@ button:focus-visible {
     margin: 0;
     padding: 0;
     flex-wrap: wrap;
-}*/
+}
 
 .description__item {
     width: 47px;
@@ -1530,23 +1510,21 @@ button:focus-visible {
     position: relative;
 }
 
+.description__wrp {
+    width: 100%;
+    background-color: #F7F7F7;
+}
+
 .description__link svg {
     position: absolute;
     top: 15%;
     left: 15%;
 }
 
-
-
 .description__img-wrp {
     width: 100%;
     /*max-width: 597px;*/
     margin: 11px 0 42px 0;
-    /*object-fit: cover;
-    display: flex;
-   
-    justify-content: center;
-    align-items: center;*/
 }
 
 .description__photo {
@@ -1563,7 +1541,6 @@ button:focus-visible {
     flex-direction: column;
     margin: -65px auto 0;
     align-items: center;
-    /*z-index: 5;*/
     border: 1px solid #EAEAEA;
     background-color: #FFFFFF;
     flex-wrap: wrap;
@@ -1615,7 +1592,6 @@ button:focus-visible {
 .description__line-wpr {
     width: 100%;
     max-width: 641px;
-    
 }
 
 .grey-line {
@@ -1721,15 +1697,10 @@ button:focus-visible {
     color: #F26376;
     position: relative;
     margin: 0 0 65px 0;
-    /*position: absolute;
-    top: 30%;
-    left: calc(50% - 80px);*/
-
 }
 
 .description__card-btn svg {
     fill: #EF5B70;
-    ;
     position: absolute;
     top: 22%;
     left: 11%;
