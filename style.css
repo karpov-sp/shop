@@ -1687,7 +1687,6 @@ button:focus-visible {
 /* <<<<< end catalog >>>>> */
 /* <<<<< page product >>>>> */
 /* <<<<< block description >>>>> */
-/* <<<<< block description >>>>> */
 .description {
   width: 100%;
   max-width: 1920px;
@@ -1703,11 +1702,6 @@ button:focus-visible {
       -ms-flex-align: center;
           align-items: center;
   padding: 0 0 32px 0;
-}
-
-.description__wrp {
-  width: 100%;
-  background-color: #F7F7F7;
 }
 
 .description__list {
@@ -1727,20 +1721,16 @@ button:focus-visible {
       flex-wrap: wrap;
 }
 
-/*.description__list {
-    list-style-type: none;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0;
-    padding: 0;
-    flex-wrap: wrap;
-}*/
 .description__item {
   width: 47px;
   height: 47px;
   background-color: rgba(42, 42, 42, 0.15);
   position: relative;
+}
+
+.description__wrp {
+  width: 100%;
+  background-color: #F7F7F7;
 }
 
 .description__link svg {
@@ -1753,11 +1743,6 @@ button:focus-visible {
   width: 100%;
   /*max-width: 597px;*/
   margin: 11px 0 42px 0;
-  /*object-fit: cover;
-    display: flex;
-   
-    justify-content: center;
-    align-items: center;*/
 }
 
 .description__photo {
@@ -1782,7 +1767,6 @@ button:focus-visible {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  /*z-index: 5;*/
   border: 1px solid #EAEAEA;
   background-color: #FFFFFF;
   -ms-flex-wrap: wrap;
@@ -1953,9 +1937,6 @@ button:focus-visible {
   color: #F26376;
   position: relative;
   margin: 0 0 65px 0;
-  /*position: absolute;
-    top: 30%;
-    left: calc(50% - 80px);*/
 }
 
 .description__card-btn svg {
