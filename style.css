@@ -2284,7 +2284,7 @@ button:focus-visible {
 
 .cart__total {
   width: 100%;
-  margin: 0 0 21px 0;
+  margin: 0 0 0 0;
   padding: 39px 0 42px 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2381,15 +2381,9 @@ button:focus-visible {
 .cart__total-line-wrp {
   width: 100%;
   max-width: 275px;
-  margin: 0 0 0 0;
-}
-
-.cart__total-grey-line {
   margin: 65px 0 0 0;
-  /*width: 100%;
-    height: 1px;
-    border: 1px solid #EAEAEA*/
-  background: #E2E2E2;
+  padding: 17px 0 0 0;
+  border-top: 1px solid #E2E2E2;
 }
 
 /* <<<<< end page cart >>>>> */
@@ -2501,27 +2495,6 @@ button:focus-visible {
   border: none;
 }
 
-/*.registration__submit-txt {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 17px;
-    color: #FFFFFF;
-    margin: 0;
-
-}
-
-.registration__submit-txt-span {
-    position: absolute;
-    top: 0;
-    right: 24px;
-}
-
-.registration__arrow {
-    color: #FFFFFF;
-    position: absolute;
-    top: ;
-    right: 24px;
-}*/
 .registration__submit:hover {
   background-color: #c1b4b4;
   color: #000;
@@ -2575,14 +2548,12 @@ button:focus-visible {
 }
 
 .registration__list {
-  /*list-style-type: none;*/
   margin: 21px 0 0 0;
   padding: 0;
 }
 
 .registration__item {
   list-style-type: none;
-  /*list-style-image: url(img/daw.svg/*);*/
   font-weight: 300;
   font-size: 24px;
   line-height: 29px;
