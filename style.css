@@ -387,6 +387,13 @@ body {
   fill: red;
 }
 
+.cart-btn-link span:hover {
+  -webkit-transition: 3s ease 1s;
+  transition: 3s ease 1s;
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
 /* <<<<< end cart-btn >>>>> */
 /* <<<<< end page-header >>>>> */
 /* <<<<< block brand >>>>> */
@@ -1098,7 +1105,7 @@ blockquote {
   min-height: 69px;
   padding: 5px 32px;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
   background-color: #222224;
 }
 
@@ -2089,6 +2096,13 @@ button:focus-visible {
   margin: 0 0 40px 0;
   -webkit-box-shadow: 15px 15px 20px rgba(122, 122, 122, 0.21);
           box-shadow: 15px 15px 20px rgba(122, 122, 122, 0.21);
+  -webkit-transition: 1s ease;
+  transition: 1s ease;
+}
+
+.cart__shopping-item:hover {
+  -webkit-transform: scale(1.25);
+          transform: scale(1.25);
 }
 
 .cart__shopping-img {
@@ -2106,7 +2120,8 @@ button:focus-visible {
 /*.cart__shopping-item-type-txt {
     max-width: 262px;
 }*/
-#switch-shopping-item {
+#switch-shopping-item,
+#switch-shopping-itm {
   display: none;
 }
 
@@ -2129,6 +2144,15 @@ button:focus-visible {
   position: absolute;
   top: 28px;
   right: 22px;
+  fill: #575757;
+  -webkit-transition: fill 2s ease;
+  transition: fill 2s ease;
+}
+
+.cart__shopping-item-txt svg:hover {
+  fill: #F16D7F;
+  -webkit-transform: rotate(260deg);
+          transform: rotate(260deg);
 }
 
 .cart__shopping-item-price,
@@ -2340,11 +2364,18 @@ button:focus-visible {
   line-height: 19px;
   color: #FFFFFF;
   text-transform: uppercase;
-  background: #F16D7F;
+  background-color: #F16D7F;
   margin: 17px 0 0 0;
   padding: 15px 43px 16px 41px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+}
+
+.cart__total-submit:hover {
+  background-color: #c1b4b4;
+  color: #000;
+  -webkit-transition: color 2s ease;
+  transition: color 2s ease;
 }
 
 .cart__total-line-wrp {
@@ -2362,4 +2393,207 @@ button:focus-visible {
 }
 
 /* <<<<< end page cart >>>>> */
+/* <<<<< page registration >>>>> */
+.registration__container {
+  width: 100%;
+  max-width: 1140px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 64px 0 96px 0;
+  margin: 0 auto;
+}
+
+.registration__wrp {
+  width: 100%;
+  max-width: 360px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin: 0;
+}
+
+.registration__name,
+.registration__access {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+.registration__name-title {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: #222222;
+  margin: 0 0 20px 0;
+}
+
+.registration__name-text {
+  display: block;
+  width: 100%;
+  padding: 12px 0 15px 17px;
+  margin: 0 0 21px 0;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 16px;
+  color: #B1B1B1;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 1px solid #A4A4A4;
+}
+
+.registration__gender {
+  padding: 15px 0 33px;
+  border: none;
+}
+
+.registration__gender-radio {
+  width: 17px;
+  height: 17px;
+  margin: 0 10px 0 0;
+  border: 1px solid #A4A4A4;
+}
+
+.registration__gender-label {
+  font-weight: 300;
+  font-size: 11px;
+  line-height: 13px;
+  color: #000000;
+  margin: 0 20px 0 0;
+  text-align: center;
+}
+
+.registration__access-title {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: #222222;
+  margin: 0 0 20px 0;
+}
+
+.registration__submit {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  background-color: #F16D7F;
+  margin: 39px 0 0 0;
+  padding: 16px 24px 17px 29px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: none;
+}
+
+/*.registration__submit-txt {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    margin: 0;
+
+}
+
+.registration__submit-txt-span {
+    position: absolute;
+    top: 0;
+    right: 24px;
+}
+
+.registration__arrow {
+    color: #FFFFFF;
+    position: absolute;
+    top: ;
+    right: 24px;
+}*/
+.registration__submit:hover {
+  background-color: #c1b4b4;
+  color: #000;
+  -webkit-transition: color 2s ease;
+  transition: color 2s ease;
+}
+
+.registration__access-txt {
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 16px;
+  color: #B1B1B1;
+  margin: 0;
+}
+
+.registration__wrp-txt {
+  width: 100%;
+  max-width: 652px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin: 0;
+}
+
+.registration__title {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.registration__txt {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+  margin: 22px 0 0 0;
+}
+
+.registration__list {
+  /*list-style-type: none;*/
+  margin: 21px 0 0 0;
+  padding: 0;
+}
+
+.registration__item {
+  list-style-type: none;
+  /*list-style-image: url(img/daw.svg/*);*/
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+  margin: 0 0 16px 0;
+}
+
+.registration__item::before {
+  content: url(img/daw.svg);
+  margin: 0 22px 0 0;
+}
+
+/* <<<<< end page registration >>>>> */
 /*# sourceMappingURL=style.css.map */
